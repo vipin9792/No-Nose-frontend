@@ -1,0 +1,105 @@
+
+* {
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 1;
+}
+
+.home_page {
+  top: -49px;
+  right: 8px;
+  z-index: 5;
+  opacity: 0.95;
+}
+
+
+
+/* Add this CSS to maintain consistent spacing */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .btn-outline-dark.btn-sm {
+    margin-left: auto;
+  }
+}
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 40vh !important;
+  }
+
+  .container {
+    padding: 0 10px !important;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .category-section {
+    padding: 1rem !important;
+  }
+
+  .social-media-cards {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-banner {
+    height: 30vh !important;
+  }
+
+  .category-list {
+    overflow-x: auto;
+    flex-wrap: nowrap !important;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .category-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+}
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
